@@ -3,52 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Oark Limited - Coming Soon", "Oark Limited - Coming Soon\", "{0A25E5C7-EB7B-42F8-84C3-29C2F10D4C13}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_15071"
-		Debug.AspNetCompiler.PhysicalPath = "Oark Limited - Coming Soon\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_15071\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_15071"
-		Release.AspNetCompiler.PhysicalPath = "Oark Limited - Coming Soon\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_15071\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "15071"
-		SlnRelativePath = "Oark Limited - Coming Soon\"
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E66F6B24-6D07-41C4-A7C1-FD394D3A3136}"
 	ProjectSection(SolutionItems) = preProject
+		Index.html = Index.html
 		README.md = README.md
-	EndProjectSection
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Oark Limited - Version 1", "Oark Limited - Version 1\", "{4B2FA234-1F3D-40A1-B727-E7EBA3C07326}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_16159"
-		Debug.AspNetCompiler.PhysicalPath = "Oark Limited - Version 1\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_16159\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_16159"
-		Release.AspNetCompiler.PhysicalPath = "Oark Limited - Version 1\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_16159\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "16159"
-		SlnRelativePath = "Oark Limited - Version 1\"
-		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Reuters TV", "Reuters TV\", "{77A7CBE1-4E64-4830-92AB-C21C37904E60}"
@@ -73,17 +31,85 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Reuters TV", "Reuters TV\",
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Display", "Display\", "{2FBAAFF8-6F40-4C68-BFC4-11F2C7ABC382}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_17670"
+		Debug.AspNetCompiler.PhysicalPath = "Display\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_17670\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_17670"
+		Release.AspNetCompiler.PhysicalPath = "Display\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_17670\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "17670"
+		SlnRelativePath = "Display\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Startup", "Startup\", "{39A07082-DCAC-4BB1-BC0D-76A2BB56FE24}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_21737"
+		Debug.AspNetCompiler.PhysicalPath = "Startup\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21737\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_21737"
+		Release.AspNetCompiler.PhysicalPath = "Startup\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21737\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21737"
+		SlnRelativePath = "Startup\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Coming Soon", "Coming Soon\", "{F6495920-0DFC-4D30-A445-34C169226C6C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_21782"
+		Debug.AspNetCompiler.PhysicalPath = "Coming Soon\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21782\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_21782"
+		Release.AspNetCompiler.PhysicalPath = "Coming Soon\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21782\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21782"
+		SlnRelativePath = "Coming Soon\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0A25E5C7-EB7B-42F8-84C3-29C2F10D4C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A25E5C7-EB7B-42F8-84C3-29C2F10D4C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B2FA234-1F3D-40A1-B727-E7EBA3C07326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B2FA234-1F3D-40A1-B727-E7EBA3C07326}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77A7CBE1-4E64-4830-92AB-C21C37904E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{77A7CBE1-4E64-4830-92AB-C21C37904E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FBAAFF8-6F40-4C68-BFC4-11F2C7ABC382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBAAFF8-6F40-4C68-BFC4-11F2C7ABC382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A07082-DCAC-4BB1-BC0D-76A2BB56FE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A07082-DCAC-4BB1-BC0D-76A2BB56FE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6495920-0DFC-4D30-A445-34C169226C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6495920-0DFC-4D30-A445-34C169226C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
