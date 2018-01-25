@@ -3,9 +3,9 @@
 $breakpoints: ( 'xs': 0, 'sm': 576px, 'md': 768px, 'lg': 992px, 'xl': 1200px );
 $black: #000 !default;
 $white: #fff !default;
-$light: #d46a6a !default;
-$medium: #933131 !default;
-$dark: #561514 !default;
+$light: #8DBFFB !default;
+$medium: #5480B4 !default;
+$dark: #0D2541 !default;
 
 html, body {
     height: 100%;
@@ -19,6 +19,7 @@ html, body {
     background: -o-linear-gradient(right, $light, $medium, $dark); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, $light, $medium, $dark); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, $light, $medium, $dark); /* Standard syntax */
+    font-size:16px;
 }
 
 //https://css-tricks.com/international-box-sizing-awareness-day/
@@ -106,8 +107,24 @@ html, body {
                 margin: 0 auto 0 auto;
                 display: table;
 
-                .button {
-                    background: transparent;
+                input {
+                    padding: 5px 7px;
+                    font-size: 17px;
+                    border: none;
+
+                    &::-ms-clear {
+                        display: none;
+                        width: 0;
+                        height: 0;
+                    }
+                }
+
+                button {
+                    padding: 5px 7px;
+                    font-size: 17px;
+                    border: none;
+                    cursor: pointer;
+                    background: $light;
                 }
             }
         }
