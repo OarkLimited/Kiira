@@ -31,7 +31,7 @@ var paths = {
 
 paths.vendors = paths.webroot + "vendors/";
 paths.src = paths.webroot + "src/";
-paths.dest = "./"; //"../";
+paths.dest = paths.webroot + "";
 
 
 gulp.task('clean:node_modules', function (cb) {

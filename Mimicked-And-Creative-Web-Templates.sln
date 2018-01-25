@@ -5,7 +5,6 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E66F6B24-6D07-41C4-A7C1-FD394D3A3136}"
 	ProjectSection(SolutionItems) = preProject
-		Index.html = Index.html
 		README.md = README.md
 	EndProjectSection
 EndProject
