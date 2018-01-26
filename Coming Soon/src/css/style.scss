@@ -103,14 +103,18 @@ html, body {
                 padding: 0 20px;
             }
 
-            .form {
-                margin: 0 auto 0 auto;
+            .form-inline {
+                margin: 0 auto 30px auto;
                 display: table;
+                text-align: center;
+                padding: 0 10px;
 
                 input {
                     padding: 5px 7px;
                     font-size: 17px;
                     border: none;
+                    display: inline-block;
+                    margin: 0 auto 0 auto;
 
                     &::-ms-clear {
                         display: none;
@@ -125,7 +129,12 @@ html, body {
                     border: none;
                     cursor: pointer;
                     background: $light;
+                    display: inline-block;
+                    margin: 0 auto 0 auto;
                 }
+            }
+
+            .oark {
             }
         }
     }
@@ -151,10 +160,6 @@ html, body {
                     margin: 30px 0 30px 0;
                     text-align: center;
                     padding: 0 15px;
-                }
-
-                .form {
-                    margin: 25px auto 0 auto;
                 }
             }
         }
