@@ -57,12 +57,12 @@ gulp.task('build:app', function (cb) {
         .pipe(sassFilter)
         .pipe(sass().on('error', sass.logError))
         .pipe(sassFilter.restore)
-        
+
         //Minify Css
         .pipe(cssFilter)
         .pipe(cssmin())
         .pipe(cssFilter.restore)
-        
+
         //Minify HTML
         .pipe(htmlFilter)
         .pipe(htmlmin({

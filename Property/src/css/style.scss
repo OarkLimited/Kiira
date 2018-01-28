@@ -1,0 +1,141 @@
+﻿@import "../../vendors/include-media/_include-media.scss";
+
+$breakpoints: ( 'xs': 0, 'sm': 576px, 'md': 768px, 'lg': 992px, 'xl': 1200px );
+$black: #000 !default;
+$white: #fff !default;
+$light: #ffcd5d !default;
+$medium: #feb300 !default;
+$dark: #fe8a00 !default;
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: Product Sans;
+    background: $medium; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, $light, $medium, $dark); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, $light, $medium, $dark); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, $light, $medium, $dark); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, $light, $medium, $dark); /* Standard syntax */
+    font-size: 16px;
+}
+
+//https://css-tricks.com/international-box-sizing-awareness-day/
+*, *:before, *:after {
+    /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
+    -webkit-box-sizing: border-box;
+    /* Firefox (desktop or Android) 28- */
+    -moz-box-sizing: border-box;
+    /* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
+    box-sizing: border-box;
+}
+@import "_responsive-embed.scss";
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 30%;
+    right: 0px;
+    z-index: 1;
+    background: rgba($white,0.7);
+    margin: 0;
+    padding: 5px 7px;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba($black,0.5);
+}
+
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+    .price-and-contacts-wrapper {
+        width: 30%;
+        height: 100%;
+
+        & > div {
+            display: table;
+            height: 100%;
+            width: 100%;
+
+            .price-and-contacts {
+                height: 100%;
+                width: 100%;
+                display: table-cell;
+                vertical-align: middle;
+            }
+        }
+    }
+
+    .show {
+        flex: 1;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .variable-width {
+        width: 100%;
+        margin: 0;
+
+        .slide_item {
+            width: auto;
+            height: 100vh;
+            margin: 0 5px;
+            max-height: 100vh;
+            position: relative;
+            .caption {
+                bottom: 0;
+                background: rgba($dark,0.6);
+                color: $white;
+                left: 0;
+                position: absolute;
+                width: 100%;
+                z-index: 2;
+                padding: 5px;
+            }
+
+            img {
+                height: 100%;
+                width: auto;
+                max-height: 100vh;
+            }
+        }
+
+        .slick-prev {
+            left: 10px;
+            z-index: 2;
+        }
+
+        .slick-next {
+            right: 10px;
+            z-index: 2;
+        }
+
+        .slick-dots {
+            bottom: 10px;
+        }
+    }
+
+    .map {
+        width: 100%;
+        height: 100vh;
+        margin: 10px 0;
+    }
+}
+
+
+@include media("<sm") {
+    .header {
+        font-size: 18px;
+        left: 0;
+    }
+
+    .wrapper {
+        .price-and-contacts-wrapper {
+            display: none;
+        }
+    }
+}
